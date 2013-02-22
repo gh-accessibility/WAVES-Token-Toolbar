@@ -1,0 +1,18 @@
+<mans:math>
+  <mans:mrow>
+    <mans:mi>sin<!-- sine --></mans:mi>
+    <mans:mfenced>
+      <mans:mi>x</mans:mi>
+    </mans:mfenced>
+    <mans:mo>=</mans:mo>
+    <mans:mfrac>
+      <mans:mrow>
+        <mans:mn>1</mans:mn>
+      </mans:mrow>
+      <mans:mrow>
+        <mans:mn>3</mans:mn>
+      </mans:mrow>
+    </mans:mfrac>
+  </mans:mrow>
+</mans:math>
+

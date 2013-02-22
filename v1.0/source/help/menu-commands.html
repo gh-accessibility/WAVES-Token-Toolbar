@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>WAVES Toolbar help | Menu Bar Commands</title>
+  <style>
+    body { Font-Family: Verdana, Helvetica, Arial, sans-serif; Padding: 0; Font-Size: 1em; }
+    h1 { Color: #6699ff; Font-Size: 150%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Font-Variant: small-caps; Line-Height: 1.5; }
+    h2 { Color: #4477ff; Font-Size: 125%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Line-Height: 1.5; }
+    h3 { Color: #6699ff; Font-Size: 110%; Margin: 0.25em 10px 0.5em 10px; Line-Height: 1.6; }
+    p { Color: #333333; Font-Size: 100%; Margin: 0.25em 16px 0.75em; Line-Height: 1.75; }
+    p, ul li, ol li { Color: #333333; Font-Size: 100%; Margin: 0.25em 16px 0.75em; Line-Height: 1.75; }
+    ul, ol { Font-Size: 90%; }
+    ul { Display: block; List-Style: none; }
+  </style>
+</head>
+<body>
+  <h1>DIAGRAM Accessible Math Input Project</h1>
+  <h2>Menu Bar Commands</h2>
+  <p>A range of options and commands can be accessed via the menu bar at the top of the WAVES Toolbar window. Many of these commands can also be performed by pressing keyboard shortcuts, and additional shortcut commands can be added if needed. The menu bar commands are:</p>
+  <h3>Formula</h3>
+  <ul>
+      <li><strong>New (Ctrl+Del)</strong>: Clears the current contents of the Formula List and begins a new math construct. Note that the contents of the Formula List are not saved, so if you want to keep your current math construct, use the Copy command or Copy MathML to Clipboard button to export the math construct to another application (such as Notepad or Word).</li>
+      <li><strong>Import MathML</strong>: Opens a file browser window to allow importing of files in the .mathml format. Note that importing a file will clear the current contents of the Formula List without saving them.</li>
+      <li><strong>Undo</strong>: Removes the last change made in the Formula List. You can use this command repeatedly to remove several changes. </li>
+      <li><strong>Clear Excerpt (Del)</strong>: Clears the contents of the currently highlighted line. The line itself is not removed from the List Box; however, since the line is now empty, it is ignored by the MathML renderer and is essentially invisible (this may create MathML errors if the line was part of a multi-line mathematical construct, e.g., a square root or exponent). The line can be reactivated by typing new text into it.</li>
+      <li><strong>Copy to Clipboard (Ctrl+X)</strong>: Copies the current math construct, formatted as MathML, to the Windows Clipboard for use in other documents or applications. </li>
+      <li><strong>Export as MathML</strong>: Opens a file browser window for saving the current math construct as a .mathml file.</li>
+      <li><strong>Export as graphic</strong>: Opens a file browser window for saving the current math construct as an image file. The WAVES Toolbar supports exporting to BMP, GIF, JPG, PNG, and TIF formats. </li>
+  </ul>
+
+  <h3>View</h3>
+  <ul>
+      <li><strong>Always on Top</strong>: When checked, this option keeps the WAVES Toolbar window visible even when other applications are active. </li>
+      <li><strong>Hide Menu (F11)</strong>: This option hides the menu bar. Press the F11 key to unhide the menu bar (if this shortcut is removed, you can also press the Alt key to unhide and navigate the menu bar).</li>
+      <li><strong>Use External MathJax Renderer</strong>: This option switches MathML rendering from the included gNumerator renderer to the online MathJax renderer. The MathJax renderer is preferred by some users, but requires an internet connection to perform rendering. The default gNumerator renderer allows the user to render formulas without an internet connection.</li>
+      <li><strong>Show Level 2 Tokens (F2)</strong>: This option adds additional tokens to the Token Set. The added tokens are the ones designated as Level 2 Tokens in the Edit Master Token List window.</li>
+      <li><strong>Show Token Repository (F3)</strong>: This option opens a window displaying all available tokens. Use this option when you need a token that isn't present in the default Token Set or the Level 2 Tokens. The main WAVES Toolbar is inactive while the Token Repository is visible, and is re-engaged when the Repository window is closed. The Repository window can be closed using F3 or the Esc key.</li>
+  </ul>
+
+  <h3>Options</h3>
+  <ul>
+      <li><strong>English Excerpts (Ctrl+E)</strong>: When checked, this option displays all token identifiers in the Formula List in common English terms (e.g., "fraction" or "square root"). When this option is unchecked, all token identifiers are displayed using MathML tags (e.g., "mfrac" or "msqrt"). This option is checked by default.</li>
+      <li><strong>High Contrast</strong>: This option enables a high contrast color mode for the WAVES Toolbar. The high contrast mode may make the WAVES Toolbar interface easier to read for some users.</li>
+      <li><strong>Read Superscript as Power</strong>: When this option is checked, superscripted numbers (such as exponentials like x<sup>2</sup> and x<sup>8</sup>) are read as powers (for example, "x squared" or "x to the eighth power"). When this option is unchecked, superscripted numbers are read using the MathML format (for example, "superscript, text x, superscript 2, end superscript"). This option is checked by default.</li>
+      <li><strong>Voice Prompting</strong>: This option enables voice prompts whenever you mouse over a token in the Token Set, and also reads the contents of lines in the Formula List when they are clicked on or edited.</li>
+      <li><strong>Edit Keyboard Shortcuts</strong>: This option opens a window for customizing keyboard shortcuts for all the commands in the WAVES Toolbar.</li>
+      <li><strong>Edit Master Token List</strong>: This option opens a window for editing the availability, levels, and behavior of all available tokens. </li>
+  </ul>
+
+  <h3>Help</h3>
+  <ul>
+      <li><strong>Index</strong>: This option accesses the WAVES Toolbar Help file, which provides basic instructions and tips for using the software.</li>
+      <li><strong>About</strong>: This option brings up a window showing information about the WAVES Toolbar, including the current version number and contact information for the developers.</li>
+  </ul>
+  
+  </body>
+</html>

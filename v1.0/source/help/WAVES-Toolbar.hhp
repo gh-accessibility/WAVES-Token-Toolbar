@@ -1,0 +1,18 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=WAVES-Toolbar.chm
+Contents file=c:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\Table of Contents.hhc
+Display compile progress=No
+Language=0x409 English (United States)
+
+
+[FILES]
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\getting-started.html
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\how-to-use.html
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\formula-list.html
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\creating-formulas.html
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\menu-commands.html
+C:\Work\Subversion\Grants\Math Input Prototype\current\WAVES-Token-Interface\help\customizing.html
+
+[INFOTYPES]
+

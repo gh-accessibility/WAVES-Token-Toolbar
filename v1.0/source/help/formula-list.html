@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>WAVES Toolbar help | Reading Lines in the Formula List</title>
+  <style>
+    body { Font-Family: Verdana, Helvetica, Arial, sans-serif; Padding: 0; Font-Size: 1em; }
+    h1 { Color: #6699ff; Font-Size: 150%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Font-Variant: small-caps; Line-Height: 1.5; }
+    h2 { Color: #4477ff; Font-Size: 125%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Line-Height: 1.5; }
+    h3 { Color: #6699ff; Font-Size: 110%; Margin: 0.25em 10px 0.5em 10px; Line-Height: 1.6; }
+    p, ul li, ol li { Color: #333333; Font-Size: 100%; Margin: 0.25em 16px 0.75em; Line-Height: 1.75; }
+    ul, ol { Font-Size: 90%; }
+    ul { Display: block; List-Style: none; }
+  </style>
+</head>
+<body>
+  <h1>DIAGRAM Accessible Math Input Project</h1>
+  <h2>Reading Lines in the Formula List</h2>
+  <p>The core concept of the WAVES Toolbar is the entering and displaying of equations by breaking them into structural chunks called <strong>lines</strong>. For example, in an equation like:</p>
+  <blockquote>
+      x<sup>2</sup> + 2x + 1 = 0
+  </blockquote>
+  <p>one line would be the overall structure of the equation (i.e., [exponential expression] + 2x + 1 = 0). Since the exponent requires additional clarification to remove ambiguity, it is separated into a second line (superscript, with a [base] term and a [superscript] term). Both the base and superscript are additional lines, defining specific parts of the exponent. The equation as it appears in the software's interface is:</p>
+  <blockquote>
+      <ul>
+	      <li>{000} &lt;START&gt;     {001} + 2x +1 = 0</li>
+	      <li>{001} &lt;superscript&gt;     {002}{003}</li>
+	      <li>{002} &lt;base&gt;     x</li>
+	      <li>{003} &lt;super&gt;     2</li>
+	  </ul>
+  </blockquote>
+  <p>where each line is identified by number (i.e., {001}, {002}, etc.). </p>
+  <p>Although reading this series of lines may seem initially complex, it will soon become second nature, and will eliminate any ambiguities or miscommunications when reading or creating math constructs.</p>
+</body>
+</html>

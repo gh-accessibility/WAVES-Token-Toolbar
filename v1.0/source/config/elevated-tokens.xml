@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elevated-tokens>
+  <elements>
+    <symbol>mfrac</symbol>
+    <symbol>msqrt</symbol>
+    <symbol>mroot</symbol>
+    <symbol>msup</symbol>
+    <symbol>mfenced</symbol>
+  </elements>
+  <level-1>
+    <symbol>⋅</symbol>
+    <symbol>≈</symbol>
+    <symbol>|</symbol>
+    <symbol>∅</symbol>
+    <symbol>π</symbol>
+  </level-1>
+  <level-2>
+    <symbol>≤</symbol>
+    <symbol>≥</symbol>
+    <symbol>≠</symbol>
+    <symbol>≟</symbol>
+    <symbol>±</symbol>
+  </level-2>
+</elevated-tokens>

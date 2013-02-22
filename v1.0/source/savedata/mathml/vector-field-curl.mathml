@@ -1,0 +1,157 @@
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+  <mrow>
+    <mover>
+      <mrow>
+        <mo>∇</mo>
+      </mrow>
+      <mrow>
+        <mo>→<!-- right arrow --></mo>
+      </mrow>
+    </mover>
+    <mo>×<!-- times --></mo>
+    <mover>
+      <mrow>
+        <mi>F</mi>
+      </mrow>
+      <mrow>
+        <mo>→<!-- right arrow --></mo>
+      </mrow>
+    </mover>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>z</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>y</mi>
+        </mrow>
+      </mfrac>
+      <mo>−</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>y</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>z</mi>
+        </mrow>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+    <mstyle>
+      <mrow>
+        <mi>i</mi>
+      </mrow>
+    </mstyle>
+    <mo>+</mo>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>x</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>z</mi>
+        </mrow>
+      </mfrac>
+      <mo>−</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>z</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+    <mstyle>
+      <mrow>
+        <mi>j</mi>
+      </mrow>
+    </mstyle>
+    <mo>+</mo>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>y</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>x</mi>
+        </mrow>
+      </mfrac>
+      <mo>−</mo>
+      <mfrac>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <msub>
+            <mrow>
+              <mi>F</mi>
+            </mrow>
+            <mrow>
+              <mi>x</mi>
+            </mrow>
+          </msub>
+        </mrow>
+        <mrow>
+          <mo>∂<!-- differential D --></mo>
+          <mi>y</mi>
+        </mrow>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+    <mstyle>
+      <mrow>
+        <mi>k</mi>
+      </mrow>
+    </mstyle>
+  </mrow>
+</math>
+

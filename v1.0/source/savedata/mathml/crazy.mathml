@@ -1,0 +1,44 @@
+<math xmlns='http://www.w3.org/1998/Math/MathML'>
+  <mrow>
+    <mn>2</mn>
+    <mo>⁤<!-- invisible plus --></mo>
+    <mfrac>
+      <mrow>
+        <mn>1</mn>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+      </mrow>
+    </mfrac>
+    <mo>≠<!-- is not equal to --></mo>
+    <mo>(</mo>
+    <mroot>
+      <mrow>
+        <mn>125</mn>
+      </mrow>
+      <mrow>
+        <mn>3</mn>
+      </mrow>
+    </mroot>
+    <mo>&gt;<!-- greater than --></mo>
+    <mroot>
+      <mrow>
+        <mn>243</mn>
+      </mrow>
+      <mrow>
+        <mn>5</mn>
+      </mrow>
+    </mroot>
+    <mo>)</mo>
+    <mo>&lt;<!-- less than --></mo>
+    <msup>
+      <mrow>
+        <mn>2</mn>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+  </mrow>
+</math>
+

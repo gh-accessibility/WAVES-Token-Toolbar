@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <title>WAVES Toolbar help | How to Use</title>
+  <style>
+    body { Font-Family: Verdana, Helvetica, Arial, sans-serif; Padding: 0; Font-Size: 1em; }
+    h1 { Color: #6699ff; Font-Size: 150%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Font-Variant: small-caps; Line-Height: 1.5; }
+    h2 { Color: #4477ff; Font-Size: 125%; Margin: 0.25em 5px 0.5em 5px; Text-Decoration: underline; Line-Height: 1.5; }
+    h3 { Color: #6699ff; Font-Size: 110%; Margin: 0.25em 10px 0.5em 10px; Line-Height: 1.6; }
+    p, ul li, ol li { Color: #333333; Font-Size: 100%; Margin: 0.25em 16px 0.75em; Line-Height: 1.75; }
+    ul, ol { Font-Size: 90%; }
+    p.img { Font-Size: 80%; Text-Align: center; }
+  </style>
+</head>
+<body>
+  <h1>DIAGRAM Accessible Math Input Project</h1>
+  <h2>How to Use</h2>
+  <p>Users can import MathML equations into the WAVES Toolbar, either by pasting from other applications or by opening pre-generated .mathml files. For example, a .mathml file for the quadratic formula (included with the WAVES Toolbar, as quadratic.mathml) inserts the quadratic formula into the WAVES Toolbar; the equation is then available for editing, reading aloud (via standard Microsoft voices), and visual checking by a sighted aide or instructor. </p>
+  <p class='img'><img src='WAVES.png' alt='Screenshot: WAVES Toolbar main window'><br />
+    WAVES Toolbar main window</p>
+  <p>The WAVES Toolbar interface consists of the following parts (labeled in the image above):</p>
+  <ol>
+      <li>
+	       <p>The <strong>Formula List</strong> is a list-based representation of math, and is the primary way to view a mathematical construct as it is being composed. Each numbered line represents a single unambiguous mathematical element (for example, an arithmetic equation, part of a fraction, or a superscripted number). Taken together, all the lines in the Formula List constitute a single mathematical formula, equation, or construct.</p>
+		    <p>Each line in the Formula List consists of three parts.</p>
+			<ol>
+			    <li>The <strong>line number</strong> (for example, {001}) is used to identify the line and keep track of where you are in the math construct. The line number is found at the far left of each line, and the line numbers go up in sequential order. Line numbers are also used in the line content (see below) to point to other lines in the math construct.</li>
+			    <li>The <strong>token identifier</strong> (for example, &lt;fraction&gt; or &lt;square root&gt;) describes what part of a math construct the line contains.</li>
+			    <li>The <strong>line content</strong> consists of everything after the token identifier, and contains the actual numbers, symbols, and line number references that make up the math construct. The line content can be numbers and symbols, such as an arithmetic construct (for example, 2+12-5=9), but can also contain line numbers. This allows the creation of complex math structures, by splitting parts of an equation (like the numerator and denominator of a fraction) over several lines.</li>
+			</ol>
+		</li>
+      <li>The <strong>Line Box</strong> shows a description of the currently highlighted line in the Formula Box, and serves as a visual aid to help read individual lines of a math construct. The contents of the Line Box can be edited by clicking in the box where the inserted content is desired; changes made in the Line Box are automatically added to the Formula List.</li>
+      <li>The <strong>Token Set</strong> displays various mathematical symbols, operators, and other characters (collectively known as tokens). The Token Set is usually set to display the most commonly used tokens for the math topic being worked on (for example, algebra or calculus), but it is fully customizable and can be modified to contain as many or as few tokens as the user desires. The Copy MathML to Clipboard button is always available in the Token Set; clicking this button copies the contents of the Formula List to the Windows Clipboard for use in other applications. The Copy MathML to Clipboard button performs the same function as the standard Ctrl-X key combination in Windows. </li>
+      <li>The <strong>Text Box</strong> contains a graphical rendering of the MathML constructed from the current formula in the Formula List. The Text Box rendering shows the math construct as it might be written on paper by a sighted user, as opposed to the more highly encoded version shown in the Formula List. The Text Box contents update automatically as changes are made in the Formula List, and will display an error message if the Formula List contents contain any errors that cause the MathML rendering to fail. Clicking inside the Text Box places a cursor at that spot. You can then make changes to the math construct in the Text Box; these changes are automatically reflected in the Formula List. </li>
+  </ol>  
+</body>
+</html>

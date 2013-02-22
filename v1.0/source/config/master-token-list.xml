@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<master-tokens>
+  <mo>
+    <token><symbol>+</symbol><speech>plus</speech><args>0</args></token>
+    <token><symbol>=</symbol><speech>equals</speech><args>0</args></token>
+    <token><symbol>)</symbol><speech>right parenthesis</speech><args>0</args></token>
+    <token><symbol>(</symbol><speech>left parenthesis</speech><args>0</args></token>
+    <token><symbol>-</symbol><speech>minus</speech><args>0</args></token>
+    <token><symbol>,</symbol><speech>comma</speech><args>0</args></token>
+    <token><symbol>⋅<!-- dot --></symbol><speech>dot</speech><args>0</args></token>
+    <token><symbol>÷<!-- divided by --></symbol><speech>divided by</speech><args>0</args></token>
+    <token><symbol>{</symbol><speech>left brace</speech><args>0</args></token>
+    <token><symbol>}</symbol><speech>right brace</speech><args>0</args></token>
+    <token><symbol>&lt;</symbol><speech>less than</speech><args>0</args></token>
+    <token><symbol>&gt;</symbol><speech>greater than</speech><args>0</args></token>
+    <token><symbol>[</symbol><speech>left bracket</speech><args>0</args></token>
+    <token><symbol>]</symbol><speech>right bracket</speech><args>0</args></token>
+    <token><symbol>≤<!-- less than or equal to --></symbol><speech>less than or equal to</speech><args>0</args></token>
+    <token><symbol>¯<!-- horizontal bar --></symbol><speech>horizontal bar</speech><args>0</args></token>
+    <token><symbol>→<!-- right arrow --></symbol><speech>right arrow</speech><args>0</args></token>
+    <token><symbol>≥<!-- greater than or equal to --></symbol><speech>greater than or equal to</speech><args>0</args></token>
+    <token><symbol>×<!-- times --></symbol><speech>times</speech><args>0</args></token>
+    <token><symbol>≠<!-- is not equal to --></symbol><speech>is not equal to</speech><args>0</args></token>
+    <token><symbol>≟<!-- may equal --></symbol><speech>may equal</speech><args>0</args></token>
+    <token><symbol>ℓ<!-- script l --></symbol><speech>script l</speech><args>0</args></token>
+    <token><symbol>±<!-- positive or negative --></symbol><speech>positive or negative</speech><args>0</args></token>
+    <token><symbol>?</symbol><speech>question mark</speech><args>0</args></token>
+    <token><symbol>≮<!-- not less than --></symbol><speech>not less than</speech><args>0</args></token>
+    <token><symbol>*</symbol><speech>asterisk</speech><args>0</args></token>
+    <token><symbol>≈<!-- approximately equal to --></symbol><speech>approximately equal to</speech><args>0</args></token>
+    <token><symbol>:</symbol><speech>colon</speech><args>0</args></token>
+    <token><symbol>%</symbol><speech>percent</speech><args>0</args></token>
+    <token><symbol>&#x2061;<!-- invisible apply function --></symbol><speech>apply function</speech><args>0</args></token>
+    <token><symbol>&#x2062;<!-- invisible times --></symbol><speech>invisible times</speech><args>0</args></token>
+    <token><symbol>&#x2064;<!-- invisible plus --></symbol><speech>invisible plus</speech><args>0</args></token>
+    <token><symbol>;</symbol><speech>semi-colon</speech><args>0</args></token>
+    <token><symbol>"</symbol><speech>double quote</speech><args>0</args></token>
+    <token><symbol>|</symbol><speech>vertical bar</speech><args>0</args></token>
+    <token><symbol>⌊<!-- left floor --></symbol><speech>left floor</speech><args>0</args></token>
+    <token><symbol>⌋<!-- right floor --></symbol><speech>right floor</speech><args>0</args></token>
+    <token><symbol>′<!-- prime --></symbol><speech>prime</speech><args>0</args></token>
+    <token><symbol>∂<!-- differential D --></symbol><speech>differential D</speech><args>0</args></token>
+    <token><symbol>−<!-- minus --></symbol><speech>minus</speech><args>0</args></token>
+  </mo>
+  <mi>
+    <token><symbol>√<!-- square root --></symbol><speech>square root</speech><args>0</args></token>
+    <token><symbol>∅<!-- empty set --></symbol><speech>empty set</speech><args>0</args></token>
+    <token><symbol>$</symbol><speech>dollar sign</speech><args>0</args></token>
+    <token><symbol>π<!-- pai --></symbol><speech>pai</speech><args>0</args></token>
+    <token><symbol>℮<!-- exponential E --></symbol><speech>exponential E</speech><args>0</args></token>
+    <token><symbol>ι<!-- imaginary I --></symbol><speech>imaginary I</speech><args>0</args></token>
+    <token><symbol>sin<!-- sine --></symbol><speech>sine</speech><args>0</args></token>
+    <token><symbol>cos<!-- cosine --></symbol><speech>cosine</speech><args>0</args></token>
+    <token><symbol>tan<!-- tangent --></symbol><speech>tangent</speech><args>0</args></token>
+    <token><symbol>cot<!-- cotangent --></symbol><speech>cotangent</speech><args>0</args></token>
+    <token><symbol>sec<!-- secant --></symbol><speech>secant</speech><args>0</args></token>
+    <token><symbol>csc<!-- cosecant --></symbol><speech>cosecant</speech><args>0</args></token>
+    <token><symbol>ln<!-- natural logarithm --></symbol><speech>natural logarithm</speech><args>0</args></token>
+    <token><symbol>log<!-- logarithm --></symbol><speech>logarithm</speech><args>0</args></token>
+    <token><symbol>lim<!-- limit --></symbol><speech>limit</speech><args>0</args></token>
+    <token><symbol>and<!-- and --></symbol><speech>and</speech><args>0</args></token>
+    <token><symbol>or<!-- or --></symbol><speech>or</speech><args>0</args></token>
+    <token><symbol>xor<!-- exclusive or --></symbol><speech>exclusive or</speech><args>0</args></token>
+    <token><symbol>not<!-- negate --></symbol><speech>negate</speech><args>0</args></token>
+    <token><symbol>mod<!-- modulus --></symbol><speech>modulus</speech><args>0</args></token>
+    <token><symbol>inv<!-- inverse --></symbol><speech>inverse</speech><args>0</args></token>
+  </mi>
+  <element>
+    <token>
+      <symbol>mrow</symbol><speech>row</speech><args>-1</args>
+      <english><base>START</base></english>
+    </token>
+    <token>
+      <symbol>mfrac</symbol><speech>fraction</speech><args>2</args>
+      <english><base>fraction</base><mrow-1>numerator</mrow-1><mrow-2>denominator</mrow-2></english>
+    </token>
+    <token>
+      <symbol>msqrt</symbol><speech>square root</speech><args>1</args>
+      <english><base>square root</base><mrow-1>radicand</mrow-1></english>
+    </token>
+    <token>
+      <symbol>mroot</symbol><speech>root</speech><args>2</args>
+      <english><base>root</base><mrow-1>radicand</mrow-1><mrow-2>radical</mrow-2></english>
+    </token>
+    <token>
+      <symbol>msub</symbol><speech>subscript</speech><args>2</args>
+      <english><base>subscript</base><mrow-1>base</mrow-1><mrow-2>sub</mrow-2></english>
+    </token>
+    <token>
+      <symbol>msup</symbol><speech>superscript</speech><args>2</args>
+      <english><base>superscript</base><mrow-1>base</mrow-1><mrow-2>super</mrow-2></english>
+    </token>
+    <token>
+      <symbol>msubsup</symbol><speech>subscript and superscript</speech><args>3</args>
+      <english><base>sub-super</base><mrow-1>base</mrow-1><mrow-2>sub</mrow-2><mrow-3>super</mrow-3></english>
+    </token>
+    <token>
+      <symbol>mover</symbol><speech>over</speech><args>2</args>
+      <english><base>over</base><mrow-1>base</mrow-1><mrow-2>above</mrow-2></english>
+    </token>
+    <token>
+      <symbol>munder</symbol><speech>under</speech><args>2</args>
+      <english><base>under</base><mrow-1>base</mrow-1><mrow-2>below</mrow-2></english>
+    </token>
+    <token>
+      <symbol>munderover</symbol><speech>under and over</speech><args>3</args>
+      <english><base>under-over</base><mrow-1>base</mrow-1><mrow-2>below</mrow-2><mrow-3>above</mrow-3></english>
+    </token>
+    <token>
+      <symbol>mtext</symbol><speech>text</speech><args>0</args>
+      <english><base>literal</base></english>
+    </token>
+    <token>
+      <symbol>mfenced</symbol><speech>fenced</speech><args>0</args>
+      <english><base>fenced</base></english>
+    </token>
+  </element>
+</master-tokens>
